@@ -10,14 +10,14 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
-  },
+    component: Home
+  }
   // TODO: Add the Survey route definition
   // TODO: Add the Secret route definition
 ]
 
 const router = new VueRouter({
-  routes,
+  routes
 })
 
 export default router
