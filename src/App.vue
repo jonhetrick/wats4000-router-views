@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
 }
 </script>
 
@@ -24,7 +24,8 @@ export default {
   background: #fff;
   padding: 2rem;
 }
-body, html {
+body,
+html {
   background: #666;
   margin: 0;
   padding: 0;
